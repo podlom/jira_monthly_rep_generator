@@ -26,4 +26,4 @@ for row in curs:
 	task_title = ''
 	if row[1] is not None:
 		task_title = row[1]
-	print("Logged %s hours for task YS-%d %s" % (row[0], task_id, task_title))
+	print("Logged %s hours for task TS-%d %s" % (row[0], task_id, task_title))
