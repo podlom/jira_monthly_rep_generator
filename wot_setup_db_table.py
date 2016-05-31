@@ -6,4 +6,6 @@ from sqlite3 import connect
 conn = connect(r'/home/taras/my_scripts/wot.db')
 curs = conn.cursor()
 
-curs.execute('create table worklog(date, task_id, hours)')
+curs.execute('CREATE TABLE worklog(date, task_id, hours)')
+
+curs.execute('CREATE TABLE task_title(task_id, title)')
