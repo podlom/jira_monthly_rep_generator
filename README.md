@@ -18,6 +18,12 @@ Each entry should contain task URL and logged hours e.g.: https://jira.url/brows
 ./parse_example_report.py
 ```
 
+- Fill in task titles using command:
+```
+./add_task_title.py task_id 'task title'
+```
+Note: do not use ' in task title value.
+
 - Use different reports to get data:
 
 + Total number of worked hours by task in current month:
