@@ -40,3 +40,8 @@ Note: do not use ' in task title value.
 ```
 ./get_logged_work_by_date.py YYYY-MM-DD
 ```
+
++ Show task title by id
+```
+./get_task_title.py task_id
+```
